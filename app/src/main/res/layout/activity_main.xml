@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"/>
+
+    <EditText
+        android:id="@+id/edt_mail_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:fontFamily="35sp"
+        android:hint="Enter Email here.."
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/edt_pass_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password here.."
+        android:password="true"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:fontFamily="35sp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        />
+
+    <Button
+
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_login_admin"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_signup_admin"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Signup"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>

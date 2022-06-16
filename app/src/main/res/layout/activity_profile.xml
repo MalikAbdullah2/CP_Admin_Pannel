@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    >
+
+    <EditText android:id="@+id/name_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:hint="Name"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:layout_marginTop="140dp"
+        />
+
+    <EditText
+        android:id="@+id/Email_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/Gender_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_supervisor_account_black_24dp"
+        />
+    <EditText
+        android:id="@+id/contact_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact"
+        android:textColor="#000000"
+        android:inputType="phone"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_profile"
+        android:text="Update"
+        />
+
+
+
+
+</LinearLayout>
